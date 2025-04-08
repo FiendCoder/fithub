@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="pages.css">
+  <script src="https://kit.fontawesome.com/2cd6ba30eb.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Asap+Condensed&family=Montserrat&display=swap" rel="stylesheet">
+  <title>FITHUB</title>
+</head>
+
+<body>
+  <header>
+    <a class="fithub-logo" href="index.html">
+      <div class="logo-container">
+        <img src="./icons/light.png" alt="fithub's logo image" class="logo-icon">
+        <div class="logo-text">
+          <p class="logo">FIT<span class="white">HUB</span></span></p>
+          <p class="logo-sub">ULTIMATE FITNESS CENTER</p>
+        </div>
+      </div>
+    </a>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="gallery/page-1.html">Gallery</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="schedule/Monday.html">Schedule</a></li>
+      <li><a href="classes.html">Classes</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="dropdown-menu" id="dropdownMenu">
+      <div class="close-button" onclick="closeMenu()">
+        <span class="yellow">&times;</span>
+      </div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="gallery/page-1.html">Gallery</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="schedule/Monday.html">Schedule</a></li>
+        <li><a href="classes.html">Classes</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div class="icons">
+      <a class="menu-icon" onclick="toggleMenu()">
+        <i class="fa-solid fa-bars"></i>
+      </a>
+      <a href="signup.html"> <i class="fa-regular fa-user"></i></a>
+      <a><img src="./icons/menu.png" alt="a sidebar icon" class="sidebar" onclick="toggleSidebar()"></a>
+      <div class="join white">Join Us</div>
+    </div>
+    <div class="sidebar-menu" id="sidebarMenu">
+      <div class="logo-container">
+        <img src="./icons/light.png" alt="fithub's logo image" class="logo-icon">
+        <div class="logo-text">
+          <p class="logo">FIT<span class="white">HUB</span></span></p>
+          <p class="logo-sub black">ULTIMATE FITNESS CENTER</p>
+        </div>
+      </div>
+      <div class="close-button" onclick="closeSidebar()">
+        <span class="yellow">&times;</span>
+      </div>
+      <h2>About Us</h2>
+      <p class="ash">We are a community-driven gym committed to providing personalized fitness experiences for all
+        levels of fitness
+        enthusiasts in a welcoming and supportive environment.</p>
+      <h2>Gallery</h2>
+      <div class="sidebar-gallery">
+        <img src="./images/sidebar-1.jpg" alt="an image" class="gallery-img">
+        <img src="./images/sidebar-2.jpg" alt="an image" class="gallery-img">
+        <img src="./images/sidebar-3.jpg" alt="an image" class="gallery-img">
+        <img src="./images/sidebar-4.jpg" alt="an image" class="gallery-img">
+        <img src="./images/sidebar-5.jpg" alt="an image" class="gallery-img">
+        <img src="./images/sidebar-6.jpg" alt="an image" class="gallery-img">
+      </div>
+      <h2>Contact Info</h2>
+      <span class="yellow"><i class="fa-solid fa-location-dot"></i></span>
+      <p class="ash">No 50, Julianah's Court, Off Ede road, Ile-Ife, Osun State.</p>
+      <span class="yellow"><i class="fa-solid fa-phone"></i></span>
+      <p class="ash">+2348132035146</p>
+      <span class="yellow"><i class="fa-solid fa-envelope"></i></span>
+      <p class="ash">fithub@gmail.com</p>
+      <h2>Follow Us</h2>
+      <div class="social-icons" style="color: #FFD700; display: inline-block; cursor: pointer;">
+        <i class="fa-brands fa-facebook-f" style="margin-left: 0;"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-youtube"></i>
+      </div>
+    </div>
+  </header>
+  <section class="banner">
+    <h2>About Us</h2>
+  </section>
+  <section class="about">
+    <div class="wwa">
+      <div class="wwa-left">
+        <h2 class="head head-bg ">WHO WE ARE</h2>
+        <h3 class="subhead">We Will Give You Strength and Health</h3>
+        <p class="ash">At FitHub, our commitment is to assist you in realizing your dream physique. Our team of skilled
+          trainers and nutritionists collaborates with you to craft a tailored fitness and nutrition regimen, designed
+          to propel you towards your unique fitness aspirations. </p>
+        <div class="button-container">
+          <a href="classes.html" class="button" style="background-color: #f5c30c;">CONTACT US <i
+              class="fa-solid fa-arrow-right" style="font-size: 16px;"></i></a>
+          <div class="offset" style="border-color: #F5C000;"></div>
+        </div>
+      </div>
+      <div class="wwa-right">
+        <img src="./icons/running.png" alt="a running word background" class="run-bg">
+        <img src="./images/girl-run.png" alt="a girl running" class="girl-run">
+      </div>
+    </div>
+    <div class="goals">
+      <div class="vision">
+        <img src="./icons/vision.png" alt="a bullseye icon" class="vision-icon">
+        <h2>OUR VISION</h2>
+        <p class="ash">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores blanditiis ea excepturi velit
+          vitae quibusdam ullam. Dolores officia aut culpa cum. Neque quas necessitatibus minima!</p>
+      </div>
+      <div class="goal-img-container">
+        <img src="./images/vision-img.jpg" alt="three gym ladies" class="goal-img">
+      </div>
+      <div class="goal-img-container">
+        <img src="./images/mission-img.jpg" alt="a man lifting a weight" class="goal-img">
+      </div>
+      <div class="mission">
+        <img src="./icons/mission.png" alt="a mission icon" class="mision-icon">
+        <h2>OUR MISSION</h2>
+        <p class="ash">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores blanditiis ea excepturi velit
+          vitae quibusdam ullam. Dolores officia aut culpa cum. Neque quas necessitatibus minima!</p>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="footer-container">
+      <div class="fithub">
+        <div class="logo-container">
+          <img src="./icons/light.png" alt="fithub's logo image" class="logo-icon">
+          <div class="logo-text">
+            <p class="logo">FIT<span class="white">HUB</span></span></p>
+            <p class="logo-sub black">ULTIMATE FITNESS CENTER</p>
+          </div>
+        </div>
+        <p>Take your health and body to the next level with our comprehensive program designed to help you reach your
+          fitness goals.</p>
+        <div class="social-icons" style="color: #777; font-size: 18px ; display: inline-block;">
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-youtube"></i>
+        </div>
+        <p>Privacy Policy | © 2024 FITHUB</p>
+      </div>
+      <div class="OC">
+        <h2 class="black">Our Classes</h2>
+        <p>Fitness Classes</p>
+        <p>Aerobics Classes</p>
+        <p>Power Yoga</p>
+        <p>Learn Machines</p>
+        <p>Full-body Strength</p>
+      </div>
+      <div class="WH">
+        <h2 class="black">Working Hours</h2>
+        <p class="asher bold">Monday - Friday:</p>
+        <p>7:00am - 21:00pm</p>
+        <p class="asher bold">Saturday:</p>
+        <p>7:00am - 19:00pm</p>
+        <p class="asher bold">Sunday - Closed</p>
+      </div>
+    </div>
+  </footer>
+  <script src="index.js"></script>
+</body>
+
+</html>

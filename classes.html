@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="pages.css">
+  <script src="https://kit.fontawesome.com/2cd6ba30eb.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Asap+Condensed&family=Montserrat&display=swap" rel="stylesheet">
+  <title>FITHUB</title>
+</head>
+
+<body>
+  <header>
+    <a class="fithub-logo" href="index.html">
+      <div class="logo-container">
+        <img src="./icons/light.png" alt="fithub's logo image" class="logo-icon">
+        <div class="logo-text">
+          <p class="logo">FIT<span class="white">HUB</span></span></p>
+          <p class="logo-sub">ULTIMATE FITNESS CENTER</p>
+        </div>
+      </div>
+    </a>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="gallery/page-1.html">Gallery</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="schedule/Monday.html">Schedule</a></li>
+      <li><a href="classes.html">Classes</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="dropdown-menu" id="dropdownMenu">
+      <div class="close-button" onclick="closeMenu()">
+        <span class="yellow">&times;</span>
+      </div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="gallery/page-1.html">Gallery</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="schedule/Monday.html">Schedule</a></li>
+        <li><a href="classes.html">Classes</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div class="icons">
+      <a class="menu-icon" onclick="toggleMenu()">
+        <i class="fa-solid fa-bars"></i>
+      </a>
+      <a href="signup.html"> <i class="fa-regular fa-user"></i></a>
+      <a><img src="./icons/menu.png" alt="a sidebar icon" class="sidebar" onclick="toggleSidebar()"></a>
+      <div class="join white">Join Us</div>
+    </div>
+    <div class="sidebar-menu" id="sidebarMenu">
+      <div class="logo-container">
+        <img src="./icons/light.png" alt="fithub's logo image" class="logo-icon">
+        <div class="logo-text">
+          <p class="logo">FIT<span class="white">HUB</span></span></p>
+          <p class="logo-sub black">ULTIMATE FITNESS CENTER</p>
+        </div>
+      </div>
+      <div class="close-button" onclick="closeSidebar()">
+        <span class="yellow">&times;</span>
+      </div>
+      <h2>About Us</h2>
+      <p class="ash">We are a community-driven gym committed to providing personalized fitness experiences for all
+        levels of fitness
+        enthusiasts in a welcoming and supportive environment.</p>
+      <h2>Gallery</h2>
+      <div class="sidebar-gallery">
+        <img src="./images/sidebar-1.jpg" alt="" class="gallery-img">
+        <img src="./images/sidebar-2.jpg" alt="" class="gallery-img">
+        <img src="./images/sidebar-3.jpg" alt="" class="gallery-img">
+        <img src="./images/sidebar-4.jpg" alt="" class="gallery-img">
+        <img src="./images/sidebar-5.jpg" alt="" class="gallery-img">
+        <img src="./images/sidebar-6.jpg" alt="" class="gallery-img">
+      </div>
+      <h2>Contact Info</h2>
+      <span class="yellow"><i class="fa-solid fa-location-dot"></i></span>
+      <p class="ash">No 50, Julianah's Court, Off Ede road, Ile-Ife, Osun State.</p>
+      <span class="yellow"><i class="fa-solid fa-phone"></i></span>
+      <p class="ash">+2348132035146</p>
+      <span class="yellow"><i class="fa-solid fa-envelope"></i></span>
+      <p class="ash">fithub@gmail.com</p>
+      <h2>Follow Us</h2>
+      <div class="social-icons" style="color: #FFD700; display: inline-block; cursor: pointer;">
+        <i class="fa-brands fa-facebook-f" style="margin-left: 0;"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-youtube"></i>
+      </div>
+    </div>
+  </header>
+  <section class="banner">
+    <h2>Classes</h2>
+  </section>
+  <section class="classes">
+    <div class="classes-container">
+      <div class="class class-1">
+        <div class="class-details">
+          <h2>Cycling</h2>
+          <div class="class-text">
+            <p class="margin-right"><i class="fa-regular fa-user"></i> Dorian Yate</p>
+            <p><i class="fa-regular fa-clock"></i> Wed: 9:00 am</p>
+          </div>
+        </div>
+        <div class="button-container">
+          <a href="contact.html" class="button" style="background-color: white; color:black; font-weight:bold;">JOIN NOW
+            <i class="fa-solid fa-arrow-right" style="font-size: 16px;"></i></a>
+          <div class="offset" style="border-color: #999;"></div>
+        </div>
+      </div>
+      <div class="class class-2">
+        <div class="class-details">
+          <h2>Meditation</h2>
+          <div class="class-text">
+            <p class="margin-right"><i class="fa-regular fa-user"></i> Maria Mich</p>
+            <p><i class="fa-regular fa-clock"></i> Fri: 1:00 pm</p>
+          </div>
+        </div>
+        <div class="button-container">
+          <a href="contact.html" class="button" style="background-color: white; color:black; font-weight:bold;">JOIN NOW
+            <i class="fa-solid fa-arrow-right" style="font-size: 16px;"></i></a>
+          <div class="offset" style="border-color: #999;"></div>
+        </div>
+      </div>
+      <div class="class class-3">
+        <div class="class-details">
+          <h2>Boxing</h2>
+          <div class="class-text">
+            <p class="margin-right"><i class="fa-regular fa-user"></i> Moses Bliss</p>
+            <p><i class="fa-regular fa-clock"></i> Thur: 9:00 pm</p>
+          </div>
+        </div>
+        <div class="button-container">
+          <a href="contact.html" class="button" style="background-color: white; color:black; font-weight:bold;">JOIN NOW
+            <i class="fa-solid fa-arrow-right" style="font-size: 16px;"></i></a>
+          <div class="offset" style="border-color: #999;"></div>
+        </div>
+      </div>
+      <div class="class class-4">
+        <div class="class-details">
+          <h2>Karate</h2>
+          <div class="class-text">
+            <p class="margin-right"><i class="fa-regular fa-user"></i>
+              David Rich</p>
+            <p><i class="fa-regular fa-clock"></i> Sat: 9:00 am</p>
+          </div>
+        </div>
+        <div class="button-container">
+          <a href="contact.html" class="button" style="background-color: white; color:black; font-weight:bold;">JOIN NOW
+            <i class="fa-solid fa-arrow-right" style="font-size: 16px;"></i></a>
+          <div class="offset" style="border-color: #999;"></div>
+        </div>
+      </div>
+      <div class="class class-5">
+        <div class="class-details">
+          <h2>Power Lifting</h2>
+          <div class="class-text">
+            <p class="margin-right"><i class="fa-regular fa-user"></i> Larry Wheels</p>
+            <p><i class="fa-regular fa-clock"></i> Mon: 9:00 pm</p>
+          </div>
+        </div>
+        <div class="button-container">
+          <a href="contact.html" class="button" style="background-color: white; color:black; font-weight:bold;">JOIN NOW
+            <i class="fa-solid fa-arrow-right" style="font-size: 16px;"></i></a>
+          <div class="offset" style="border-color: #999;"></div>
+        </div>
+      </div>
+      <div class="class class-6">
+        <div class="class-details">
+          <h2>Workout</h2>
+          <div class="class-text">
+            <p class="margin-right"><i class="fa-regular fa-user"></i> Shawn Ray</p>
+            <p><i class="fa-regular fa-clock"></i> Sun: 10:00 am</p>
+          </div>
+        </div>
+        <div class="button-container">
+          <a href="contact.html" class="button" style="background-color: white; color:black; font-weight:bold;">JOIN NOW
+            <i class="fa-solid fa-arrow-right" style="font-size: 16px;"></i></a>
+          <div class="offset" style="border-color: #999;"></div>
+        </div>
+      </div>
+      <div class="class class-7">
+        <div class="class-details">
+          <h2>Crossfit</h2>
+          <div class="class-text">
+            <p class="margin-right"><i class="fa-regular fa-user"></i> Jenifer Alex</p>
+            <p><i class="fa-regular fa-clock"></i> Wed: 7:00 pm</p>
+          </div>
+        </div>
+        <div class="button-container">
+          <a href="contact.html" class="button" style="background-color: white; color:black; font-weight:bold;">JOIN NOW
+            <i class="fa-solid fa-arrow-right" style="font-size: 16px;"></i></a>
+          <div class="offset" style="border-color: #999;"></div>
+        </div>
+      </div>
+      <div class="class class-8">
+        <div class="class-details">
+          <h2>Running</h2>
+          <div class="class-text">
+            <p class="margin-right"><i class="fa-regular fa-user"></i> John Bush</p>
+            <p><i class="fa-regular fa-clock"></i> Fri: 7:00 am</p>
+          </div>
+        </div>
+        <div class="button-container">
+          <a href="contact.html" class="button" style="background-color: white; color:black; font-weight:bold;">JOIN NOW
+            <i class="fa-solid fa-arrow-right" style="font-size: 16px;"></i></a>
+          <div class="offset" style="border-color: #999;"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="footer-container">
+      <div class="fithub">
+        <div class="logo-container">
+          <img src="./icons/light.png" alt="fithub's logo image" class="logo-icon">
+          <div class="logo-text">
+            <p class="logo">FIT<span class="white">HUB</span></span></p>
+            <p class="logo-sub black">ULTIMATE FITNESS CENTER</p>
+          </div>
+        </div>
+        <p>Take your health and body to the next level with our comprehensive program designed to help you reach your
+          fitness goals.</p>
+        <div class="social-icons" style="color: #777; font-size: 18px ; display: inline-block;">
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-youtube"></i>
+        </div>
+        <p>Privacy Policy | © 2024 FITHUB</p>
+      </div>
+      <div class="OC">
+        <h2 class="black">Our Classes</h2>
+        <p>Fitness Classes</p>
+        <p>Aerobics Classes</p>
+        <p>Power Yoga</p>
+        <p>Learn Machines</p>
+        <p>Full-body Strength</p>
+      </div>
+      <div class="WH">
+        <h2 class="black">Working Hours</h2>
+        <p class="asher bold">Monday - Friday:</p>
+        <p>7:00am - 21:00pm</p>
+        <p class="asher bold">Saturday:</p>
+        <p>7:00am - 19:00pm</p>
+        <p class="asher bold">Sunday - Closed</p>
+      </div>
+    </div>
+  </footer>
+  <script src="index.js"></script>
+
+</body>
+
+</html>

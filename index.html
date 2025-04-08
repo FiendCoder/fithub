@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <script src="https://kit.fontawesome.com/2cd6ba30eb.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Asap+Condensed&family=Montserrat&display=swap" rel="stylesheet">
+  <title>FITHUB</title>
+</head>
+
+<body>
+  <header>
+    <a class="fithub-logo" href="#">
+      <div class="logo-container">
+        <img src="./icons/light.png" alt="fithub's logo image" class="logo-icon">
+        <div class="logo-text">
+          <p class="logo">FIT<span class="white">HUB</span></p>
+          <p class="logo-sub">ULTIMATE FITNESS CENTER</p>
+        </div>
+      </div>
+    </a>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="gallery/page-1.html">Gallery</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="schedule/Monday.html">Schedule</a></li>
+      <li><a href="classes.html">Classes</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="dropdown-menu" id="dropdownMenu">
+      <div class="close-button" onclick="closeMenu()">
+        <span class="yellow">&times;</span>
+      </div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="gallery/page-1.html">Gallery</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="schedule/Monday.html">Schedule</a></li>
+        <li><a href="classes.html">Classes</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div class="icons">
+      <a class="menu-icon" onclick="toggleMenu()">
+        <i class="fa-solid fa-bars"></i>
+      </a>
+      <a href="signup.html"> <i class="fa-regular fa-user"></i></a>
+      <a><img src="./icons/menu.png" alt="a sidebar icon" class="sidebar" onclick="toggleSidebar()"></a>
+      <div class="join white">Join Us</div>
+
+    </div>
+    <div class="sidebar-menu" id="sidebarMenu">
+      <div class="logo-container">
+        <img src="./icons/light.png" alt="fithub's logo image" class="logo-icon">
+        <div class="logo-text">
+          <p class="logo">FIT<span class="white">HUB</span></span></p>
+          <p class="logo-sub black">ULTIMATE FITNESS CENTER</p>
+        </div>
+      </div>
+      <div class="close-button" onclick="closeSidebar()">
+        <span class="yellow">&times;</span>
+      </div>
+      <h2>About Us</h2>
+      <p class="ash">We are a community-driven gym committed to providing personalized fitness experiences for all
+        levels of fitness
+        enthusiasts in a welcoming and supportive environment.</p>
+      <h2>Gallery</h2>
+      <div class="sidebar-gallery">
+        <img src="./images/sidebar-1.jpg" alt="an image" class="gallery-img">
+        <img src="./images/sidebar-2.jpg" alt="an image" class="gallery-img">
+        <img src="./images/sidebar-3.jpg" alt="an image" class="gallery-img">
+        <img src="./images/sidebar-4.jpg" alt="an image" class="gallery-img">
+        <img src="./images/sidebar-5.jpg" alt="an image" class="gallery-img">
+        <img src="./images/sidebar-6.jpg" alt="an image" class="gallery-img">
+      </div>
+      <h2>Contact Info</h2>
+      <span class="yellow"><i class="fa-solid fa-location-dot"></i></span>
+      <p class="ash">No 50, Julianah's Court, Off Ede road, Ile-Ife, Osun State.</p>
+      <span class="yellow"><i class="fa-solid fa-phone"></i></span>
+      <p class="ash">+2348132035146</p>
+      <span class="yellow"><i class="fa-solid fa-envelope"></i></span>
+      <p class="ash">fithub@gmail.com</p>
+      <h2>Follow Us</h2>
+      <div class="social-icons" style="color: #FFD700; display: inline-block; cursor: pointer;">
+        <i class="fa-brands fa-facebook-f" style="margin-left: 0;"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-youtube"></i>
+      </div>
+    </div>
+  </header>
+  <section class="first">
+    <div class="text">
+      <h1 class="train"><span style="color: #FFD700;">TRAIN HARD,</span> LIVE BETTER</h1>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non inventore nam fugiat nostrum amet doloremque
+        perferendis a voluptatum totam repellendus, dolores ipsum veniam laboriosam similique aspernatur! Ducimus
+        voluptatibus totam harum explicabo, veritatis omnis vero error placeat itaque perspiciatis a quidem! Enim veniam
+        est nam dignissimos, non recusandae voluptatem magni quae.</p>
+      <form action="#" method="post" id="myForm">
+        <input type="text" id="emailInput" size="30" placeholder="Your Email Address" required">
+        <button type="submit">Register</button>
+      </form>
+    </div>
+    <div class="follow-us">
+      <p style="display: inline-block; font-size: 18px ;">FOLLOW US:</p>
+      <div class="social-icons" style="color: white; font-size: 17px ; display: inline-block; cursor: pointer;">
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-youtube"></i>
+      </div>
+    </div>
+  </section>
+  <section class="second">
+    <div class="info-container">
+      <div class="info">
+        <span style="color: #FFD700; font-size: 60px ;"><i class="fa-regular fa-clock"></i></span>
+        <h2>PROGRESSION</h2>
+        <p>Our team of experts will work with you to create a customized plan that helps you achieve success one step at
+          a time.</p>
+      </div>
+      <div class="info">
+        <span style="color: #FFD700; font-size: 60px ;"><i class="fa-solid fa-dumbbell"></i></span>
+        <h2>WORKOUTS</h2>
+        <p>With a variety of workouts to choose from, you'll have everything you need to get into the best shape of your
+          life.</p>
+      </div>
+      <div class="info">
+        <span style="color: #FFD700; font-size: 60px ;"><i class="fa-regular fa-clipboard"></i></span>
+        <h2>NUTRITION</h2>
+        <p>Our team will work with you to create a personalized meal plan that helps you reach your specific health
+          goals.</p>
+      </div>
+    </div>
+    <div class="wwa">
+      <div class="wwa-left">
+        <h2 class="head head-bg">WHO WE ARE</h2>
+        <h3 class="subhead">Take Your Health And Body To The Next Level</h3>
+        <p>Take your health and body to the next level with our comprehensive program designed to help you reach your
+          fitness goals.</p>
+        <div class="features">
+          <div class="feature-container">
+            <img src="./icons/two.png" alt="a trainer icon">
+            <p>PROFESSIONAL TRAINERS</p>
+          </div>
+          <div class="feature-container">
+            <img src="./icons/kettlebell.png" alt="a kettlebell icon">
+            <p>MODERN EQUIPMENTS</p>
+          </div>
+          <div class="feature-container">
+            <img src="./icons/stationary-bike big.png" alt="a stationary bike icon">
+            <p>FANCY GYM MACHINES</p>
+          </div>
+        </div>
+        <div class="button-container">
+          <a href="classes.html" class="button">TAKE A TOUR <i class="fa-solid fa-arrow-right"
+              style="font-size: 16px;"></i></a>
+          <div class="offset"></div>
+        </div>
+      </div>
+      <div class="wwa-right">
+        <img src="./icons/running.png" alt="a running word background" class="run-bg">
+        <img src="./images/girl-run.png" alt="a girl running" class="girl-run">
+      </div>
+  </section>
+  <section class="third">
+    <div class="third-contents">
+      <div class="texts-container">
+        <h2 class="head head-bg">OUR FEATURED CLASS</h2>
+        <h3 class="subhead middle">We Are Offering Best Flexible Classes</h3>
+      </div>
+      <div class="images-container">
+        <div class="begin">
+          <img src="./images/power.jpg" alt="a man lifting a weight"  class="classes">
+          <div class="before"></div>
+          <img src="./icons/dumbbell.png" alt="" class="img-icon">
+          <div class="sub-text">
+            <h2>Power</h2>
+            <p>Saturday: 8:00am-10:00am</p>
+          </div>
+        </div>
+        <div class="class-container">
+          <img src="./images/yoga.jpg" alt="a yoga session" class="classes">
+          <div class="before"></div>
+          <img src="./icons/yoga.png" alt="" class="img-icon">
+          <div class="sub-text">
+            <h2>Yoga</h2>
+            <p>Friday: 8:00am-10:00am</p>
+          </div>
+        </div>
+        <div class="class-container">
+          <img src="./images/karate.jpg" alt="a karate session" class="classes" >
+          <div class="before"></div>
+          <img src="./icons/karate.png" alt="" class="img-icon">
+          <div class="sub-text">
+            <h2>Karate</h2>
+            <p>Thursday: 10:00am-12:00pm</p>
+          </div>
+        </div>
+        <div class="class-container">
+          <img src="./images/class-1.jpg" alt="a lady riding a stationary bike" class="classes" >
+          <div class="before"></div>
+          <img src="./icons/stationary-bike.png" alt="" class="img-icon">
+          <div class="sub-text">
+            <h2>Cycling</h2>
+            <p>Monday: 5:00pm-7:00pm</p>
+          </div>
+        </div>
+        <div class="class-container">
+          <img src="./images/workouts.jpg" alt="a lady working out" class="classes">
+          <div class="before"></div>
+          <img src="./icons/weightlifting.png" alt="" class="img-icon">
+          <div class="sub-text">
+            <h2>Workouts</h2>
+            <p>Tuesday: 5:00pm-7:00pm</p>
+          </div>
+        </div>
+        <div class="end">
+          <img src="./images/martial arts.jpg" alt="a man using a punching bag" class="classes" >
+          <div class="before"></div>
+          <img src="./icons/boxer.png" alt="" class="img-icon">
+          <div class="sub-text">
+            <h2>Martial Arts</h2>
+            <p>Saturday: 4:00pm-6:00pm</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="fourth">
+    <div class="trainers">
+      <div class="heading">
+        <h2 class="head head-bg">GYM TRAINERS</h2>
+        <h3 class="subhead middle">Team Of Expert Coaches</h3>
+        <p style=" color:#bbb;">Expert team of coaches helps you succeed in any goal,
+          personalized guidance and motivation provided!
+        </p>
+      </div>
+      <div class="trainers-container">
+        <div class="trainer">
+          <img src="./images/trainer-1.png" alt="a trainer" class="trainer-img">
+          <div class="trainer-info">
+            <img src="./icons/box-top.png" alt="a box top" class="top">
+            <i class="fa-solid fa-angle-up"></i>
+            <h2>Michael Scoffield</h2>
+            <p style="color:#bbb">Crossfit Trainer</p>
+            <div class="trainer-socials" style="color: #555;">
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-regular fa-envelope"></i>
+            </div>
+          </div>
+        </div>
+        <div class="trainer">
+          <img src="./images/trainer-2.png" alt="a trainer" class="trainer-img" >
+          <div class="trainer-info">
+            <img src="./icons/box-top.png" alt="a box top" class="top">
+            <i class="fa-solid fa-angle-up"></i>
+            <h2>Tom Holland</h2>
+            <p style=" color:#bbb;">Fitness Trainer</p>
+            <div class="trainer-socials" style="color: #555;">
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-regular fa-envelope"></i>
+            </div>
+          </div>
+        </div>
+        <div class="trainer trainer-no3">
+          <img src="./images/trainer-3.png" alt="a trainer" class="trainer-img">
+          <div class="trainer-info">
+            <img src="./icons/box-top.png" alt="a box top" class="top">
+            <i class="fa-solid fa-angle-up"></i>
+            <h2>Anna Ruby</h2>
+            <p style=" color:#bbb;">Yoga Trainer</p>
+            <div class="trainer-socials" style="color: #555;">
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-regular fa-envelope"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="fifth">
+    <div class="fifth-container">
+      <h2 class="head head-bg">TESTIMONIALS</h2>
+      <div class="first-box">
+        <div class="main-box">
+          <img src="./images/blue-woman.jpg" alt="a fithub lady" class="blue-woman">
+          <div class="quote-container">
+            <i class="fa-solid fa-quote-left" style="font-size: 47px; color: #ddd;"></i>
+            <p style="font-style: italic;">“I've been a member of Fithub for the past 8 months and it has been an
+              amazing experience. The trainers are knowledgeable and supportive, the equipment is top-notch, and the
+              community of members is friendly and encouraging.”</p>
+            <h2 style="font-size: 20px;">Ajayi Adeoluwa</h2>
+            <p>CEO of Ajayi Conglomerate</p>
+            <div class="arrow-button">
+              <button><i class="fa-solid fa-arrow-left" style="font-size: 16px;"></i></button>
+              <button><i class="fa-solid fa-arrow-right" style="font-size: 16px;"></i></button>
+            </div>
+          </div>
+          <img src="./icons/cycle-bg.svg" alt="" class="cycle-bg">
+        </div>
+      </div>
+      <div class="gym-icons">
+        <img src="./icons/gym-1.png" alt="" class="gym-icon">
+        <img src="./icons/gym-2.png" alt="" class="gym-icon">
+        <img src="./icons/gym-3.png" alt="" class="gym-icon">
+        <img src="./icons/gym-4.png" alt="" class="gym-icon">
+        <img src="./icons/gym-5.png" alt="" class="gym-icon">
+      </div>
+    </div>
+  </section>
+  <section class="sixth">
+    <div class="sixth-container">
+      <h2>Let's Calculate Your <span style="color: #FFD700;">BMI</span></h2>
+      <p>Easily determine your body mass index with our accurate calculation tool.</p>
+      <form class="BMI" id="bmiForm">
+        <input class="weight" placeholder="Weight/Kg" id="weightInput"></input>
+        <input class="height ml" placeholder="Height/Cm" id="heightInput"></input>
+      </form>
+      <div class="result" id="resultContainer">
+        <p>Your BMI is : <span id="bmiValue" style="color: #FFD700; font-weight:bold;"></span></p>
+        <p class="ml">Your weight implication : <span id="weightImplication"
+            style="color: #FFD700; font-weight:bold;"></span></p>
+      </div>
+      <button type="button" onclick="calculateBMI()">CALCULATE</button>
+    </div>
+  </section>
+  <section class="seventh">
+    <img src="./images/seventh-bg-1.png" alt="no days off background" class="seventh-bg-1">
+    <div class="seventh-container">
+      <h2 class="head head-bg">PRICING CHART</h2>
+      <h3 class="black" style="font-size: 25px; font-weight: bold;">Exclusive Pricing List</h3>
+      <p style=" color:#111;">Our pricing list with totally fair prices curated to fit all our customers needs.</p>
+      <div class="pricing-container">
+        <div class="pricing">
+          <img src="./images/pricing-1.jpg" alt=" a beginner" class="pricing-img">
+
+          <div class="price-content ash">
+            <h3 class="price black">
+              <span class="superscript ash">$</span> 40 <span class="subscript ash">p/m</span>
+            </h3>
+            <p>Free Hand</p>
+            <p>Gym Fitness</p>
+            <p>Weight Loss</p>
+            <div class="button-container new">
+              <a href="contact.html" class="button">PURCHASE NOW <i class="fa-solid fa-arrow-right"
+                  style="font-size: 16px;"></i></a>
+              <div class="offset"></div>
+            </div>
+          </div>
+          <div class="level yellow-text">
+            Beginner
+          </div>
+        </div>
+        <div class="pricing">
+          <img src="./images/pricing-2.jpg" alt="an amateur" class="pricing-img" >
+          <div class="price-content ash">
+            <h3 class="price black">
+              <span class="superscript ash">$</span> 70 <span class="subscript ash">p/m</span>
+            </h3>
+            <p>Free Hand</p>
+            <p>Gym Fitness</p>
+            <p>Weight Loss</p>
+            <p>Personal Trainer</p>
+            <div class="button-container new">
+              <a href="contact.html" class="button">PURCHASE NOW <i class="fa-solid fa-arrow-right"
+                  style="font-size: 16px;"></i></a>
+              <div class="offset"></div>
+            </div>
+          </div>
+          <div class="level">
+            Amateur
+          </div>
+        </div>
+        <div class="pricing">
+          <img src="./images/pricing-3.jpg" alt="a veteran" class="pricing-img">
+          <div class="price-content ash">
+            <h3 class="price black">
+              <span class="superscript ash">$</span> 100 <span class="subscript ash">p/m</span>
+            </h3>
+            <p>Free Hand</p>
+            <p>Gym Fitness</p>
+            <p>Weight Loss</p>
+            <p>Personal Trainer</p>
+            <p>Cycling</p>
+            <div class="button-container new">
+              <a href="contact.html" class="button">PURCHASE NOW <i class="fa-solid fa-arrow-right"
+                  style="font-size: 16px;"></i></a>
+              <div class="offset"></div>
+            </div>
+          </div>
+          <div class="level yellow-text">
+            Veteran
+          </div>
+        </div>
+      </div>
+    </div>
+    <img src="./images/seventh-bg-2.png" alt="a dumbbell background" class="seventh-bg-2">
+  </section>
+  <section class="eighth">
+    <div class="eighth-container">
+      <h2 class="head middle head-bg">OUR BLOG</h2>
+      <h2 class="black middle" style="font-size: 25px; font-weight: bold;">Our Recent News</h2>
+      <p class="middle" style=" color:#111;">Keep up with our latest news and information.</p>
+      <div class="news-container">
+        <div class="news">
+          <div class="date">29.12.2023</div>
+          <h3>Yoga For Everyone in 2024</h3>
+          <p style="margin-bottom: 1.5rem;">This is program designed to make the practice of yoga beneficial for people
+            of all ages, abilities, and backgrounds.</p>
+          <a href="blog.html" class="button" style="background-color: #f5c30c;">READ MORE <i
+              class="fa-solid fa-arrow-right" style="font-size: 16px;"></i></a>
+        </div>
+        <div class="news">
+          <div class="date">13.12.2023</div>
+          <h3>Getting Back Into CrossFit After Vacation</h3>
+          <p style="margin-bottom: 1.5rem;">Learn how to ease back into your CrossFit routine after a vacation with tips
+            and strategies for success.</p>
+          <a href="blog.html" class="button" style="background-color: #f5c30c;">READ MORE <i
+              class="fa-solid fa-arrow-right" style="font-size: 16px;"></i></a>
+        </div>
+        <div class="news">
+          <div class="date">09.12.2023</div>
+          <h3>Meet Fitness Ambassador Grace</h3>
+          <p style="margin-bottom: 1.5rem;">Get to know Grace, a fitness enthusiast and dedicated ambassador who is
+            passionate about helping others reach their fitness goals.</p>
+          <a href="blog.html" class="button" style="background-color: #f5c30c;">READ MORE <i
+              class="fa-solid fa-arrow-right" style="font-size: 16px;"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="ninth">
+    <div class="ninth-container">
+      <h2>Need a Fitness Trainer?</h2>
+      <h3><span style="color: #FFD700;">Call:</span> +2348132035146</h3>
+      <div class="button-container">
+        <a href="contact.html" class="button" style="background-color: #f5c30c;">PURCHASE NOW</a>
+        <div class="offset" style="border-color: #F5C000;"></div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="footer-container">
+      <div class="fithub">
+        <div class="logo-container">
+          <img src="./icons/light.png" alt="fithub's logo image" class="logo-icon">
+          <div class="logo-text">
+            <p class="logo">FIT<span class="white">HUB</span></span></p>
+            <p class="logo-sub black">ULTIMATE FITNESS CENTER</p>
+          </div>
+        </div>
+        <p class="ash">Take your health and body to the next level with our comprehensive program designed to help you
+          reach your
+          fitness goals.</p>
+        <div class="social-icons" style="color: #777; font-size: 18px ; display: inline-block;">
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-youtube"></i>
+        </div>
+        <p>Privacy Policy | © 2024 FITHUB</p>
+      </div>
+      <div class="OC">
+        <h2 class="black">Our Classes</h2>
+        <p>Fitness Classes</p>
+        <p>Aerobics Classes</p>
+        <p>Power Yoga</p>
+        <p>Learn Machines</p>
+        <p>Full-body Strength</p>
+      </div>
+      <div class="WH">
+        <h2 class="black">Working Hours</h2>
+        <p class="asher bold">Monday - Friday:</p>
+        <p>7:00am - 21:00pm</p>
+        <p class="asher bold">Saturday:</p>
+        <p>7:00am - 19:00pm</p>
+        <p class="asher bold">Sunday - Closed</p>
+      </div>
+    </div>
+  </footer>
+  <script src="index.js"></script>
+</body>
+
+</html>
